@@ -1,0 +1,22 @@
+# ─── Downloader ───────────────────────────────────────────
+yt-dlp>=2024.1.0
+
+# ─── Transcriber ──────────────────────────────────────────
+faster-whisper>=1.0.0
+
+# ─── Analyzer (LLM) ───────────────────────────────────────
+google-genai>=0.1.0
+
+# ─── Editor / Video Processing ────────────────────────────
+opencv-python>=4.9.0
+moviepy>=1.0.3
+ffmpeg-python>=0.2.0
+
+# ─── Utilities ────────────────────────────────────────────
+tqdm>=4.66.0
+rich>=13.7.0
+python-dotenv>=1.0.0
+pysrt>=1.1.2
+numpy>=1.26.0
+Pillow>=10.2.0
+discord.py>=2.3.0
