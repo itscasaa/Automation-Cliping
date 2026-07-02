@@ -61,7 +61,7 @@ pip install -r requirements.txt
 ### 5. Setup API Key
 Buat file `.env` di root folder:
 ```env
-ANTHROPIC_API_KEY=sk-ant-xxxxxxxxxxxxx
+GEMINI_API_KEY=AIzaSyxxxxxxxxxxxxx
 ```
 
 ### 6. (Opsional) Tambahkan font
@@ -177,8 +177,8 @@ python -m pytest tests/ -v
 
 ## Troubleshooting
 
-**`ANTHROPIC_API_KEY tidak ditemukan`**
-→ Pastikan file `.env` ada dan berisi `ANTHROPIC_API_KEY=sk-ant-...`
+**`GEMINI_API_KEY tidak ditemukan`**
+→ Pastikan file `.env` ada dan berisi `GEMINI_API_KEY=AIzaSy...`
 
 **`ffmpeg tidak ditemukan`**
 → Install ffmpeg dan pastikan sudah ada di PATH
